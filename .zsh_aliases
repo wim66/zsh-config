@@ -1,0 +1,26 @@
+# systemctl aliases
+alias sc='sudo systemctl'
+alias sc-serv='systemctl list-units --type=service | grep --color -E "active running|$"'
+alias sa='systemd-analyze'
+alias sab='systemd-analyze blame'
+alias sac='systemd-analyze critical-chain'
+
+alias upd='sudo apt update && paplay /home/willem/Muziek/HAL-sounds/well.wav && sudo apt upgrade && paplay /home/willem/Muziek/HAL-sounds/better.wav'
+alias scf='neofetch'
+alias zoek='apt search'
+
+alias iconsdir="/usr/share/icons"
+alias themesdir="/usr/share/themes"
+alias myip="ip addr sh wlp3s0 | grep -i global | awk '{print $2}'"
+alias rotlog="sudo logrotate -v --force /etc/logrotate.conf" 
+
+alias reload="killall plasmashell && sleep 2 && kstart plasmashell && sleep 6 && exit"
+
+alias ls='ls --group-directories-first --color'
+alias exa="exa --group-directories-first"
+
+alias df="df -Th --total"
+alias du="du -ach | sort -h"
+alias free="free -mt"
+alias ps="ps auxf"
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
