@@ -1,6 +1,9 @@
-# systemctl aliases
+# ZSH aliases ~/.zsh_aliases
+
+    # systemctl aliases
 alias sc='sudo systemctl'
 alias sc-serv='systemctl list-units --type=service | grep --color -E "active running|$"'
+    # systemd
 alias sa='systemd-analyze'
 alias sab='systemd-analyze blame'
 alias sac='systemd-analyze critical-chain'
