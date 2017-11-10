@@ -1,5 +1,3 @@
-export KWIN_TRIPLE_BUFFER=1
-
 
 # custom .zshrc wim66 october 2017
 
@@ -60,7 +58,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
- ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
  COMPLETION_WAITING_DOTS="true"
