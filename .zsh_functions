@@ -94,7 +94,9 @@ NC="\e[m"               # Color Reset
 
 ALERT=${BWhite}${On_Red} # Bold White on red background
 ZSH_V=$(zsh --version)
+KERN_V=$(uname -srp)
 
+echo -e "${BBlack}${On_White} \uF17C ${KERN_V} ${NC}"
 
 echo -e "${BYellow}${ZSH_V}${NC}"
 date

@@ -1,3 +1,5 @@
+export KWIN_TRIPLE_BUFFER=1
+
 
 # custom .zshrc wim66 october 2017
 
